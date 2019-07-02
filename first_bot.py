@@ -9,4 +9,5 @@ text = 'Это сообщение отправленно с помощью vk_ap
 result = vkBot.method('messages.send', {'user_id' : USER_ID,
                                         'random_id' : random.randint(1, 2147483648),
                                         'message' : text})
+# something new
 print(result)
